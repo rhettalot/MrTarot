@@ -4,7 +4,7 @@
 
 <style>
   
-.homehead { border: solid black;
+  .homehead { border: solid black;
             border-bottom: none;
             background: gray;
             color: white;
@@ -24,7 +24,16 @@
               font-size: 20px; 
               font-family: helvetica;
               color: white; }
-                          
+              
+.hometable { display: flex;
+             flex-wrap: wrap; 
+             justify-content: center;
+             border: solid black;
+             background: gray;} 
+             
+             
+                 
+         
 </style>
 
 <title>
@@ -59,12 +68,71 @@
 </head>
 
 <body>
-  <table>
-    <th>
-      Major Arcana
-    </th>
-  </table>
 
+  <div class="hometable">
+    
+    <table>
+      <tr>
+        <th colspan="3" style="border: solid black;">
+          Major Arcana
+        </th>
+      </tr>
+      <tr>
+        <td style="border: solid black;">
+          0. The Fool
+        </td>
+        <td style="border: solid black;">
+          Beginnings, innocence, <br> spontaneity, a free spirit.
+        </td>
+        <td style="border: solid black;">
+          Reverse: Holding back, <br> recklessness, risk-taking
+        </td>
+      </tr>
+    </table>
+        
+    <table>
+      <tr>
+        <th colspan="3" style="border: solid black;">
+          Pentacles
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Ace of Pentacles
+        </td>
+        <td>
+          A new financial or career opportunity, <br> manifestation, abundance
+        </td>
+        <td>
+          Reverse: Lost opportunity, <br> lack of planning and foresight
+        </td>
+      </tr>
+    </table>
+    
+     <table>
+      <tr>
+        <th colspan="3" style="border: solid black;">
+          Swords
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Ace of Swords
+        </td>
+        <td>
+          Breakthroughs, new ideas, <br> mental clarity, success
+        </td>
+        <td>
+          Reverse: Inner clarity, <br> re-thinking an idea, clouded judgement
+        </td>
+      </tr>
+    </table>
+
+    
+
+    
+  </div>
+  
 </body>
 
 </html>
